@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">   
+        <title>
+            Musica para Todos-Spotify
+        </title>
+        <link rel="shortcut icon" type="image/x-icon" href="icono/icono.ico"/>
+        <link rel="estilo-boostrap" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type=" text/css" media="screen" href="css/bootstrap.min.css">
+        <style>
+            /* panel arriba*/
+            .panel{
+                background-color: rgba(3, 3, 3, 0.534);
+                width: 1900px;
+                height: 80px;
+                position:relative ;
+                top: 0px;
+                left: 0px;
+                }
+            .button{
+                background-color:transparent;
+                color:white;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                position:relative;
+                left: 450px;
+                top:5px;
+                border: 10px solid transparent;
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.28px;
+            }
+            .button1{
+                background-color:transparent;
+                color:white;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                position:relative;
+                left: 459px;
+                top:5px;
+                border: 10px solid transparent;
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.28px;
+                
+            }
+            .button2{
+                background-color:transparent;
+                color:white;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                position:relative;
+                left: 472px;
+                top:5px;
+                border: 10px solid transparent;
+                /*width: 60px;*/
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.28px;
+            }
+            
+            .button3{
+                background-color:transparent;
+                color:white;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                position:relative;
+                left: 515px;
+                top:5px;
+                border: 10px solid transparent;
+                /*width: 60px;*/
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.28px;
+                
+            }
+            
+            .button4{
+                background-color:transparent;
+                color:white;
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
+                position:relative;
+                left: 524px;
+                top:5px;
+                border: 10px solid transparent;
+                /*width: 60px;*/
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.28px;
+                
+            }
+
+            /* lwtras de inmedio*/
+            .letrash1{
+                font-size: 80px;
+                color: white;
+                background-position: center center;
+                font-family: Helvetica,Arial,  sans-serif;
+                font-weight: bold;
+                letter-spacing: -5.9px;
+                text-align: center; 
+                margin-bottom: 0px;
+                border-bottom-width: 0px;
+                padding-bottom: 0px;
+                margin-top: 274px;
+                margin-left: 25%;
+            }.letrash6{
+                text-align: center;                
+                font-size: 18px;
+                color: white;
+                background-position: center center;
+                font-family: 'Helvetica';
+                letter-spacing: 1.4px;
+                margin-top: 25px;
+                margin-bottom: 35px;
+                margin-left: 25%;
+                translate: no;
+            }
+            .button-free{
+                color: white;
+                background-color: rgb(29,185,84);
+                position: relative;
+                border: 10px solid rgb(29,185,84);
+                border-radius: 50px;
+                width: 352px;
+                height: 46px;
+                margin-left: 793px;
+                margin-right: 40px;
+                margin-top: -5px;
+                margin-bottom: 0px;
+                padding: 10px 60px 10px 60px;
+                font-size: 18;
+                font-weight: bold;  
+                line-height: 0px;
+                margin-bottom: 350px;
+                text-align: center;
+                margin-right: 50%;
+                margin-left: 50%;
+                }
+            /* abajo*/
+            .panel-abajo{
+                background-color: rgb(0, 0, 0);
+                width: 1900px;
+                height: 445px;
+                position: relative;
+                top: 10px;
+                left: center;
+                right: center;   
+            }
+            .panel-down-two{
+                background-color: rgb(0, 0, 0);
+                width:1900px ;
+                height:129px ;
+                position: relative;
+                left:center;
+                right: center;
+                ;
+            }
+            .button-option-idioma{
+                border-top-width: 500px; 
+                padding-top: 22px; 
+                padding-left: 1468px;
+                color:white ;
+                right: 1000px;
+            }
+            .button-information-town{
+                position: relative;
+                left:  319px;
+                top: 0px;
+                background-color: transparent;
+                color:#919496;
+                border:10px solid transparent;
+                font-size: 12px;
+                letter-spacing: 0.5px;
+            }
+            
+           
+            .logo-down{
+                position:absolute;
+                right:100px;
+                left: 100px;
+                top: 85px;
+                width: 150px;
+            }
+            .button-panel-down{
+                color: white;
+                position: relative;
+                font-size: 13px;
+
+                background-color: transparent;
+                border-color: transparent;
+                font-weight: bold;
+                letter-spacing: 0.28px;
+            }
+            #buscar:hover{background:green ;}
+            
+            #button-idioma-honduras{
+                background-color:transparent; 
+                color:#919496; 
+                border-bottom: transparent;
+                border: 10px solid transparent;padding-right: 0px
+            }
+            #label-spotify-abajo{
+                background-color:transparent; color:#919496; border-bottom: transparent;border: 10px solid transparent;left: 322px; top: 8px; margin-left: 1465px; font-size:14px; letter-spacing: 0.28px; margin-top: -5px
+            }#button-facebook{
+                border-radius:100%;position: relative; border: 10px solid transparent; padding: 0px 0px 0px 0px; background-color: black
+            }
+            #button-instagram{
+                border-radius:100%;
+                border: 10px solid transparent;
+                padding: 0px 0px 0px 0px;
+                margin-left: 0px;
+                background-color: black;
+            }
+            #button-twitter{
+                border-radius:100%; border: 10px solid transparent;background-repeat: no-repeat; background-color: black;  padding: 0px 0px 0px 0px;}
+        </style>
+        
+
+    </head>
+    <body style="background-color:rgb(244,118,122);background-image: url(imagenes/fonfo2.jpg); width: 1500px;height: 100%; background-repeat: no-repeat;background-position: center center; background-size: cover;background-attachment: fixed; ">
+        <div class="panel">
+            <header >
+                <img src="imagenes/logo-panel.png" alt="Spotify" width="129" style="margin:20px 0px 0px 383px">    
+                <input class="button"  width="20px"  type="button" value="Premium" >
+                <input class="button1" type="button" value="Ayuda">
+                <input class="button2" type="button" value="Descargar">
+                <!--aqui va la linea vertical-->
+                <!--<hr width="1" size="10">-->
+                <input class="button3" type="button" value="Registrarse" >
+                <input class="button4" type="button" value="Iniciar Sesión " >
+            </header>
+        </div>
+        <div>
+            <h1 class="letrash1">
+                <b>Música para todos.</b>
+                <h6 class="letrash6">Millones de canciones. No necesitas tarjeta de crédito.</h6>
+            </h1>
+        </div>
+        <div>
+            <input class="button-free" type="button" value="OBTÉN SPOTIFY GRATIS">
+        </div>
+        <div>
+
+        </div>
+        <div class="panel-abajo" style=" background-repeat: no-repeat;background-position: center center; background-size: cover">
+            <div class="logo-down" style="margin-left:212px">
+                <table style="top:-25p; width: 1500px;"> 
+                    <thead style="font-size: 15px; padding-top: 14px;letter-spacing: 0.2px; width: 1500px">
+                        <tr>
+                            <th>
+                            <img src="imagenes/logo-panel.png" alt="Spotify" width="143">
+                            </th>
+                            <th style="color:#919496;padding-left: 25px;padding-top: 6px;">
+                                COMPAÑIA
+                            </th>
+                            <th style="color:#919496;padding-left: 110px;padding-top: 6px;width: 231px;padding-right: 80px;">
+                            COMUNIDADES
+                            </th>
+                            <th style="color:#919496;width: 161px;padding-left: 0px;padding-top: 6px;padding-left: 20px;">
+                            ENLACES UTILES
+                            </th>
+                            <th style="color:white;border-radius: 100%;padding-left: 300px;width: 371px;">    
+                                <button id=button-instagram onclick="location.href='https://www.instagram.com/spotify/'" type="submit" >
+                                    <img src="imagenes/logo-instagram.png" alt="x" width="50px" height="50px">
+                            </button>
+                            </th>
+                            <th style="color:white;border-radius: 100%;width: 70;padding-left: 0px;padding-right: 0px;width: 70px;">
+                                <button id="button-twitter" onclick="location.href=' https://twitter.com/spotify'" type="submit">
+                                    <img src="imagenes/logo-twitter.png" alt="x"    width="50px" height="50px" style="position:relavite; background:transparent; ">
+                                </button>
+                            </th>
+                            <th style="color:white;border-radius: 100%;width: 70;padding-left: 0px;width: 71px;padding-right: 230px;">
+                                <button id="button-facebook"  onclick="location.href=' https://www.facebook.com'" type="submit">
+                                    <img  src="imagenes/logo-facebook.png" alt="x" width="50px" height="50px">
+                                </button>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td></td>
+                        <td style="padding-left: 25px;"><input class="button-panel-down" type="button" value="Acerca de"></td>
+                        <td style="padding-left: 105px"><input class="button-panel-down" type="button" value="Para Artista"></td>
+                        <td style="padding-left: 17px"><input class="button-panel-down" type="button" value="Ayuda"></td>
+                    </tbody>
+                    <tbody>
+                        <tr><td></td>
+                        <td style="padding-left: 25px;"><input class="button-panel-down" type="button" value="Empleo"></td>
+                        <td style="padding-left: 105px;"><input class="button-panel-down" type="button" value="Desarrolladores"></td>
+                        <td style="padding-left: 17px;"><input class="button-panel-down" type="button" value="Reproductor web"></td>
+                    </tbody>
+                    <tbody>
+                        <tr><td></td>
+                        <td style="padding-left: 25px;"><input class="button-panel-down" type="button" value="For de record"></td>
+                        <td style="padding-left: 105px;"><input class="button-panel-down" type="button" value="Marcas"></td>
+                    </tbody>
+                    <tbody>
+                        <tr><td></td>
+                        <td></td>
+                        <td style="padding-left: 105px;"><input class="button-panel-down" type="button" value="Inversionistas"></td>
+                    </tbody>
+                    <tbody>
+                        <tr><td></td>
+                            <td></td>
+                        <td  style="padding-left: 105px;"><input class="button-panel-down" type="button" value="Proveerdores"></td>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="panel-down-two">
+        <div class="button-option-idioma">
+            <input id=button-idioma-honduras type="button" value="Honduras">
+            <button type="submit" style="background-color:transparent; padding:0px; border: 10px solid transparent">
+                <img src="imagenes/Honduras.png" alt="Opciones" width="25px" height="12.5px" >
+            </button>
+        </div>
+        <div>
+            <input class="button-information-town" type="button" value="Legal" style="margin-left: 2    px;padding-left: 0PX; letter-spacing: 0.7px">
+            <input class="button-information-town" type="button" value="Centro de privacidad">
+            <input class="button-information-town" type="button" value="Politica de Privacidad">
+            <input class="button-information-town" type="button" value="Cookies">
+            <input class="button-information-town" type="button" value="Sobre los anuncios">
+        </div>
+        <div>
+            <label id=label-spotify-abajo for="©2019 Spotify AB">©2019 Spotify AB</label>
+        </div>
+    </div>
+    </body>
+</html>
+
+
+

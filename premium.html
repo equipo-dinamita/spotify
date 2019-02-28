@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify</title>
+    <link rel="shortcut icon" type="image/x-icon" href="icono/icono.ico"/>
+    <link rel="estilo-boostrap" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type=" text/css" media="screen" href="css/bootstrap.min.css">
+    <style>
+        #panel{
+            background-color:#509BF5;
+            width: 100%;
+            height: 80px;
+            top: 0px;
+            left: 0px;
+        }
+        #button_premium{
+            background-color:transparent;
+            color:white;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            position:relative;
+            left: 450px;
+            top:5px;
+            border: 10px solid transparent;
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            margin-top: 17px;
+        }
+        #button_ayuda{
+            background-color:transparent;
+            color:white;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            position:relative;
+            left: 459px;
+            top:5px;
+            border: 10px solid transparent;
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            margin-top: 17px;
+        }
+        #button_descargar{
+            background-color:transparent;
+            color:white;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            position:relative;
+            left: 472px;
+            top:5px;
+            border: 10px solid transparent;
+            /*width: 60px;*/
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            margin-top: 17px;
+        }
+        #button_resgistrate{
+            background-color:transparent;
+            color:white;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            position:relative;
+            left: 515px;
+            top:5px;
+            border: 10px solid transparent;
+            /*width: 60px;*/
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            margin-top: 17px;    
+        }
+        #button_iniciar_sesion{
+            background-color:transparent;
+            color:white;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            position:relative;
+            left: 524px;
+            top:5px;
+            border: 10px solid transparent;
+                /*width: 60px;*/
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 0.28px;
+            margin-top: 17px;
+        }
+        #imagen_logo{
+            width: 135px;
+            margin: 7px 0px 0px 326px;
+        }
+        /* borde azul  */
+        #panel_blue{
+            background-color: #509BF5;
+            width: 100%;
+            height: 624px;
+            position: relative;
+        }
+        #text_1{
+            color: white;
+            text-align: center;
+            font-family: Helvetica,Arial,  sans-serif;
+            font-size: 100px;
+            font-weight: bold;
+            position: relative;
+            top: 117px;
+            left: -73px;
+            letter-spacing: 0.4px;
+        }
+        #text_2{
+            color: white;
+            text-align: center;
+            font-family: Helvetica,Arial,  sans-serif;
+            font-weight: bold;
+            position: relative;
+            top: 117px;
+            left: -93px;
+            letter-spacing: 0.7px;
+        }
+        #button_green{
+            color: white;
+            background-color: rgb(29,185,84);
+            position: relative;
+            border: 10px solid rgb(29,185,84);
+            border-radius: 50px;
+            width: 373px;
+            height: 60px;
+            margin-left: 793px;
+            margin-right: 40px;
+            margin-top: -5px;
+            margin-bottom: 0px;
+            padding: 10px 60px 10px 60px;
+            font-size: 20px;
+            font-weight: bold;  
+            line-height: 0px;
+            margin-bottom: 350px;
+            text-align: center;
+            margin-right: 30%;
+            margin-left: 17%;
+            top: 163px;
+        }
+        #text_down_blue{
+            color:white;
+            font-size: 13px;
+            text-align: center;
+            position: relative;
+        }
+        #button_terminos_y_condiciones{
+            position: relative;
+            left: -188px;
+            right: 0px;
+            background-color: transparent;
+            border-color: transparent;
+            color:white;
+            font-size: 13px;
+            text-decoration:underline;
+            top: -47px;
+            letter-spacing: 0.6px;
+        }
+        #position_h6_1{
+            position: relative;
+            left: -293px;
+            left: 300px;
+            margin-bottom: 0px;
+            top: -5px;
+            right: 0px;
+            letter-spacing: 0.9px;
+            width: 120px;
+            text-align: center;
+        }        
+        #position_h6_2{
+            position: relative;
+            left: 115px;
+            left: 820px;;
+            right: 0px;
+            margin-bottom: 0px;
+            top:-25px;
+            letter-spacing: 0.47px;
+            width: 500px;
+        }
+        #woman_panel_02{
+            position: relative;
+            text-align: center;
+        }
+        #panel_white_03{
+            background-color: #ffffff;
+            width: 100%;
+            height: 635px;
+        }
+        #label_premium{
+            text-align: center;
+            font-size: 53px;
+            font-family:  Helvetica;
+            top:45px;
+            font-weight: bold;
+            letter-spacing: -3px;
+            top: 10px;
+            margin-top: 47px;
+        }
+        #imagen_panel_03{
+            position: relative;
+            top: -25px;
+            text-align: center;
+        }
+        .letras_tabla_panel_03{
+            font-size: 25px;
+            text-align: center;
+            position: relative;
+            left: center;
+            background-position: center center;
+            top:18px;
+            left: 37.2%;
+            width: 300px
+        }
+        .letras_tabla2_panel_03{
+            font-size: 16px;
+            text-align: center;
+            position: relative;
+            left: center;
+            background-position: center center;
+            left: 37.2%;
+            top: 35px;
+            
+        }
+        #config_table{
+            position: relative;
+            top:-35px;
+        }
+        #panel_white_04{
+            background-color: rgb(248,248,248);
+            position: relative;
+            height: 900px;
+        }
+        #text_panel_white_04{
+            text-align: center;
+            color: black;
+            font-size: 37px;
+            letter-spacing: -1.7px;
+            font-weight: bold;
+            top: 21px;
+            position: relative;
+        }
+        #panel_black_05{
+            height: 122px;
+            background-color: black;    
+        }
+    </style>
+</head>
+<body style="background:rgba(255,255,255,0.93)">
+    <div id="panel">
+        <header >
+            <img src="imagenes/logo-panel.png" alt="Spotify" id="imagen_logo" >    
+            <input id="button_premium"  width="20px"  type="button" value="Premium" >
+            <input id="button_ayuda" type="button" value="Ayuda">
+            <input id="button_descargar" type="button" value="Descargar">
+                    <!--aqui va la linea vertical-->
+                    <!--<hr width="1" size="10">-->
+            <input id="button_resgistrate" type="button" value="Registrarse" >
+            <input id="button_iniciar_sesion" type="button" value="Iniciar Sesión ">
+        </header>
+    </div>
+    <div id="panel_blue">
+        <div>
+            <h1 id="text_1">Hazte Premium. Sonríe.</h1>
+        </div>
+        <div>
+            <h2 id="text_2">
+                Prueba Premium gratis por 30 días. Después, solo 5.99 USD al mes.*
+            </h2>
+        </div>
+        
+        <div>
+            <input type="button" value="INICIAR PRUEBA GRATIS" id="button_green">
+        </div>
+        <div id="text_down_blue">
+            <div id="position_h6_1">*Aplican</div>
+            <div id="position_h6_2"> Abierto exclusivamente a usuarios que aún no hayan probado Premium.</div>
+            <input type="button" value="terminos y condiciones." id="button_terminos_y_condiciones">
+        </div>
+        
+    </div>
+    <div id="panel_white_03">
+        <div>
+            <p id="label_premium">¿Por qué ser Premium?</p>
+        </div>
+        <div id="imagen_panel_03">
+            <img src="imagenes/premium_panel_03.png" alt="Spotify" >
+        </div>
+        <div>
+            <table id="config_table">
+                <thead>
+                    <tr>
+                        <th class="letras_tabla_panel_03" style=" top: 0px; width: 250px ;left: 30%">
+                            Descarga tu música.
+                        </th>
+                        <th class="letras_tabla_panel_03" style="left: 33.8%;">
+                            Sin anuncios que interrumpan tu música.
+                        </th>
+                        <th class="letras_tabla_panel_03" style="left: 35.5%;">
+                            Reproduce la canción que quieras.
+                        </th>
+                        <th class="letras_tabla_panel_03" >
+                            Saltos de canciones ilimitados.
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr >
+                        <td class="letras_tabla2_panel_03" style="left: 30%;top: 0px; ">
+                            Escúchala desde cualquier lugar.
+                        </td>
+                        <td class="letras_tabla2_panel_03" style="left: 33.8%;padding-right: 25px">
+                            Disfruta de tu música sin interrupciones.
+                        </td>
+                        <td class="letras_tabla2_panel_03" style="left: 35.5%">
+                            Incluso en dispositivos móviles.
+                        </td>
+                        <td class="letras_tabla2_panel_03" s>
+                            Solo haz clic en Siguiente.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id=panel_white_04>
+        <div id="text_panel_white_04">
+            Escucha música gratis o suscríbete a Spotify Premium. 
+        </div>
+    </div>
+    <div id="panel_black_05">
+
+    </div>
+    <!--<div >
+        <img src="imagenes/woman_panel_02.png" alt="Spotify" id="woman_panel_02">
+    </div>-->
+</body>
+
+</html>
