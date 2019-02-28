@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spotify</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <style>
+
+body{
+  background: #000;
+  width: 168px;
+  margin: 0 auto;
+}
+.rotate{
+  background: url('https://martindrapeau.github.io/backbone-game-engine/docs/super-mario-sprite.png') 0 0 no-repeat; 
+  width: 32px;
+  height: 68px;
+  margin: auto;
+  float: left;
+}
+
+.clockwise, .anticlockwise{
+  color: #000;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.clockwise{
+  float: right;
+}
+
+.clockwise:hover ~ .rotate{
+  animation: rotate-clockwise 6s steps(21) infinite;
+}
+
+.auto{
+  margin-top: 40px;
+}
+
+.auto:checked ~ .rotate{
+  animation: rotate-clockwise 6s steps(21) infinite;
+}
+
+.auto:checked ~ .clockwise{
+  color: #fff;
+}
+
+.auto:checked ~ .anticlockwise{
+  color: #fff;
+}
+
+
+.anticlockwise:hover ~ .rotate{
+  animation: rotate-anticlockwise 6s steps(21) infinite;
+}
+
+.auto{
+  display: inline-block;
+  margin-left: 0;
+}
+
+.auto-rotate{
+  color: #333;
+  font-weight: bold;
+  font-family: sans-serif;
+  clear: both;
+}
+
+@keyframes rotate-clockwise {  
+  0% {background-position: 0 0; } 
+  100% {background-position: -672px 0; } 
+}
+
+@keyframes rotate-anticlockwise {  
+  0% {background-position: -672px 0; }
+  100% {background-position: 0 0; } 
+}
+     
+
+
+
+
+
+        @font-face{
+            font-family:FuenteDialogos;
+            src: url(fonts/Helvetica.ttf)
+
+        }
+        #logo{
+            margin: 18px 10px 10px 50px
+        }
+       .dialogos-principales{
+            color: white;
+            font-size: 26px;
+            text-align: left;
+            width: 400px;
+            border: 1px;
+            padding: 20px 60px 10px 10px;
+            margin-left: 60px;
+            margin-top: 85px; 
+            font-family:Helvetica ;
+            font-weight: bold;
+       }
+       .botones{
+           padding: 10px 70px 10px 4px ; /* relleno de la caja del boton*/
+           font-size: 14px;/* tamanio letra*/
+           color: white; /* color letra*/
+           background-color: #20B954; /* color fondo del boton*/
+           border-radius: 50px; /*redondear el boton*/
+            border: 1px solid rgba(107, 121, 107, 0); /*borde del boton*/
+            width: 270px; /*ancho del elemento */
+            white-space: normal; /*manejo de espacios en blanco dentro de un elemento*/
+            font-family: Helvetica;/* fuente aplicada al texto */
+            font-weight: bold; /*texto en negrita, ligero, cursiva...*/
+            letter-spacing: 2px;/* espaciado entre caracteres*/
+            margin-left: 1.8cm;
+            
+       }
+       
+    </style>
+<script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/7CBE8949-7442-A246-8C89-FD5C430971FA/main.js" charset="UTF-8"></script></head>
+
+<body style="background-color: black;background-image: url( img/fondo-solido.jpg);background-repeat: no-repeat;background-position: center center; background-attachment: fixed;background-size: cover">     
+   <div style="width:100% ; background-color:rgba(0, 0, 0, 0) ; height:13%;position:absolute;left:0% ; top: 0%">
+        <div>
+            <header>
+                    <!--<nav class="navbar navbar-inverse">
+                            <div>
+                              <div class="navbar-header">
+                                <a class="navbar-brand" href="#">spotify</a>
+                              </div>
+                              <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Premiun</a></li>
+                                <li><a href="#">Ayuda</a></li>
+                                <li><a href="#">Descargar</a></li>
+                              </ul>
+                              <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Perfil</a></li>
+                              </ul>
+                            </div>
+                          </nav> --> 
+                <a href="http://localhost:8888/spotify/">
+                    <img id="logo" src="img/spotify-logo-reducido.png" alt="">
+                </a>
+            </header>
+        </div>
+        <br><br>
+        <main>
+            <div id="titulos-principales;" class="dialogos-principales">
+                <h1> ¿Tienes ganas de escuchar algo?</h1>
+                <h5>Escucha los mejores nuevos lanzamientos</h2>
+            </div>
+            <div class="botones">
+                <input class="botones" type="button" value="ABRIR REPRODUCTOR WEB">
+            </div>
+            <div>
+                    <input type="checkbox" class="auto" id="auto" checked>
+                    <label class="auto-rotate" for="auto">Auto &#x21bb;</label><br>
+                    <span class="anticlockwise">&#x2190;</span>
+                    <span class="clockwise">&#x2192;</span>
+                    <div class="rotate"></div>
+            </div>
+
+
+        </main>
+    </div>    
+</body>
+</html>
