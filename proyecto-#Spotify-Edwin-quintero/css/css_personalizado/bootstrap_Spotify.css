@@ -1,0 +1,61 @@
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+      transition: none;
+    }
+  }
+.btn-success2{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    position: relative;
+    border-radius: 50px;
+    width: 373px;
+    height: 60px;
+    margin-left: 793px;
+    margin-right: 40px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 10px 60px 10px 60px;
+    font-size: 20px;
+    font-weight: bold;  
+    line-height: 0px;
+    margin-bottom: 350px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 17%;
+    top: 163px;
+    text-transform: uppercase; 
+}
+
+.btn-success2:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-button-green-landing-page{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    position: relative;
+    border-radius: 50px;
+    width: 352px;
+    height: 46px;
+    margin-left: 793px;
+    margin-right: 40px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 10px 60px 10px 60px;
+    font-size: 18;
+    font-weight: bold;  
+    line-height: 0px;
+    margin-bottom: 350px;
+    text-align: center;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+.btn-button-green-landing-page{
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+  
