@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* ojo no esta corregido */
+    .panel{
+        background-color: rgba(3, 3, 3, 0.534);
+        width: 1900px;
+        height: 80px;
+        position:relative ;
+        top: 0px;
+        left: 0px;
+        }
+    #button_premium{
+        background-color:transparent;
+        color:white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        position:relative;
+        left: 43.5%;
+        top:5px;
+        border: 10px solid transparent;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        top: 15px;
+    }
+    #button_ayuda{
+        background-color:transparent;
+        color:white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        position:relative;
+        left: 44.1%;
+        top:5px;
+        border: 10px solid transparent;
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        top: 15px;
+    }
+    #button_descargar{
+        background-color:transparent;
+        color:white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        position:relative;
+        left: 44.7%;
+        top:5px;
+        border: 10px solid transparent;
+        /*width: 60px;*/
+        font-size: 15x;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        top: 15px;
+    }
+    #button_resgistrate{
+        background-color:transparent;
+        color:white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        position:relative;
+        left: 46.8%;
+        top:5px;
+        border: 10px solid transparent;
+        /*width: 60px;*/
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        top: 15px;
+    }
+    #button_iniciar_sesion{
+        background-color:transparent;
+        color:white;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        position:relative;
+        left: 47.4%;
+        top:5px;
+        border: 10px solid transparent;
+        /*width: 60px;*/
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 0.28px;
+        top: 15px;
+    }
+    #imagen_logo{
+        width: 135px;
+        margin: 7px 0px 0px ;
+        left: 20%;
+        position: relative;
+    }
+</style>
+</head>
+<body>
+    <div class="panel">
+        <header >
+            <img src="imagenes/logo-panel.png" alt="Spotify" id="imagen_logo" onclick="location.href='landing_page.html'">    
+            <input id="button_premium"  width="20px"  type="button" value="Premium" onclick="location.href='Premium.html'">
+            <input id="button_ayuda" type="button" value="Ayuda">
+            <input id="button_descargar" type="button" value="Descargar" onclick="location.href='descargas.html'">
+                    <!--aqui va la linea vertical-->
+                    <!--<hr width="1" size="10">-->
+            <input id="button_resgistrate" type="button" value="Registrarse" >
+            <input id="button_iniciar_sesion" type="button" value="Iniciar Sesión ">
+        </header>
+    </div>
+                    
+</body>
+</html>
