@@ -151,38 +151,44 @@
         }
         #text_down_blue{
             color:white;
-            font-size: 13px;
             position: relative;
+            left:32.5%;
         }
         #button_terminos_y_condiciones{
             position: relative;
-            left:35.9%;
-            right: 0px;
             background-color: transparent;
             border-color: transparent;
             color:white;
             font-size: 13px;
             text-decoration:underline;
-            top: -47px;
             letter-spacing: 0.6px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
         #position_h6_1{
             position: relative;
-            left: 31.5%;
-            margin-bottom: 0px;
-            top: -5px;
+            left: 55%;
             letter-spacing: 0.9px;
             width: 120px;
-            text-align: center;
+            font-size: 12px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
         }        
         #position_h6_2{
             position: relative;
-            left:44.3%;
             right: 0px;
             margin-bottom: 0px;
-            top:-25px;
             letter-spacing: 0.47px;
             width: 500px;
+            font-size: 12px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
         }
         #woman_panel_02{
             position: relative;
@@ -301,11 +307,13 @@
             border: 10px solid transparent;
             left: 76.2%; 
             top: -15px; 
-            font-size:14px; 
+            font-size:12px; 
             letter-spacing: 0.28px;
             margin-bottom: 0px;
             border-bottom-width: 0px;
             bottom: 0px;
+            font-family: circular,Arial, Helvetica, sans-serif;
+            line-height: 18px;
         }
     </style>
 </head>
@@ -315,7 +323,7 @@
             <img src="imagenes/logo-panel.png" alt="Spotify" id="imagen_logo" onclick="location.href='landing_page.html'">    
             <input id="button_premium"  width="20px"  type="button" value="Premium" onclick="location.href='Premium.html'">
             <input id="button_ayuda" type="button" value="Ayuda">
-            <input id="button_descargar" type="button" value="Descargar">
+            <input id="button_descargar" type="button" value="Descargar" onclick="location.href='descargas.html'">
                     <!--aqui va la linea vertical-->
                     <!--<hr width="1" size="10">-->
             <input id="button_resgistrate" type="button" value="Registrarse" >
@@ -335,11 +343,21 @@
         <div >
             <input type="button" value="INICIAR PRUEBA GRATIS" class="btn btn-success2">
         </div>
-        <div id="text_down_blue">
-            <div id="position_h6_1">*Aplican</div>
-            <div id="position_h6_2"> Abierto exclusivamente a usuarios que aún no hayan probado Premium.</div>
-            <input type="button" value="terminos y condiciones." id="button_terminos_y_condiciones">
-        </div>
+            <table id="text_down_blue">
+                <thead>
+                    <tr>
+                        <th>
+                            <div id="position_h6_1">*Aplican</div>
+                        </th>
+                        <th>
+                            <input type="button" value="terminos y condiciones." id="button_terminos_y_condiciones">
+                        </th>
+                        <th>
+                            <div id="position_h6_2"> Abierto exclusivamente a usuarios que aún no hayan probado Premium.</div>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
     </div>
     <div id="panel_white_03">
         <div>
