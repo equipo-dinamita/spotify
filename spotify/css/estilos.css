@@ -1,0 +1,183 @@
+.cuerpo{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+#div-secundario{
+    width:100%;
+    background-color:rgba(0, 0, 0, 0) ; 
+    height:13%;
+    position:absolute;
+    left:0% ; 
+    top: 0%
+}
+
+
+.dialogos-principales{
+    color: white;
+    font-size: 23px;
+    text-align: left;
+    width: 350px;
+    border: 1px;
+    padding: 20px 60px 10px 10px;
+    margin-left: 40px;
+    margin-top: 70px; 
+    font-family:Helvetica ;
+    font-weight: bold;
+}
+.segundo-dialogo{
+ color: white;
+ font-family:Helvetica ;
+ margin-top: 0%;
+ margin-bottom: 30px;
+ width:330px ;
+ font-size: 23px;
+ margin-left: 50px;
+ font-weight: bold;
+}
+.botones{
+   padding: 10px 70px 10px 50px ; /* relleno de la caja del boton*/
+   font-size: 14px;/* tamanio letra*/
+   color: white; /* color letra*/
+   background-color: #20B954; /* color fondo del boton*/
+   border-radius: 50px; /*redondear el boton*/
+    border: 1px solid rgba(107, 121, 107, 0); /*borde del boton*/
+    width: 330px; /*ancho del elemento */
+    white-space: normal; /*manejo de espacios en blanco dentro de un elemento*/
+    font-family: Helvetica;/* fuente aplicada al texto */
+    font-weight: bold; /*texto en negrita, ligero, cursiva...*/
+    letter-spacing: 2px;/* espaciado entre caracteres*/
+    margin-left: 60px;
+    margin-right: 10%;
+    
+   }
+
+ .hover:hover{
+    background-color: rgba(46, 45, 45, 0.726);
+    filter:grayscale(100%);
+  }    
+
+.panel{
+    background-color: rgba(3, 3, 3, 0.63);
+    width: 100%;
+    height: 80px;
+    position:absolute ;
+    top: 0px;
+    left: 0px;
+    }   
+
+.button{
+      background-color:transparent;
+      color:white;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 0px 0px 0px;
+      position:relative;
+      left: 450px;
+      top:-18px;
+      border: 10px solid transparent;
+
+      font-size: 15px;
+      font-weight: bold;
+      letter-spacing: 0.28px;
+}
+.button1{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 459px;
+    top:-18px;
+    border: 10px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+}   
+
+.button2{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 472px;
+    top:-18px;
+    border: 10px solid transparent;
+    /*width: 60px;*/
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+}
+
+.button3{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 515px;
+    top:-18px;
+    border: 10px solid transparent;
+    /*width: 60px;*/
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+
+}
+
+.button4{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 524px;
+    top:-18px;
+    border: 10px solid transparent;
+    /*width: 60px;*/
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+
+}
+@font-face{
+    font-family:FuenteDialogos;
+    src: url(fonts/Helvetica.ttf)
+
+}
+#logo{
+    margin: 18px 10px 10px 50px
+}
+
+/* floats para las imagenes*/
+.floats{
+    float: left;
+}
+#primer-columna-img{
+    position:absolute ; 
+    top:110px ; 
+    left: 490px
+}
+#segunda-columna-img{
+    float:left; 
+    position: absolute; 
+    left: 738px;
+    top: 110px;  
+}
+#tercera-columna-img{
+    float:left; 
+    position:absolute; 
+    left:985px; 
+    top: 110px;
+    
+}
+
+.ultimas-tendencias{
+    width: 948px;
+    height: 750px;
+    background-color: black;
+    top: 500px;
+}

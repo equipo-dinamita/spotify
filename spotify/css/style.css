@@ -1,0 +1,473 @@
+.body{
+    background-color: black;
+    /*(no me funciona esto aqui)background-image: url("img/fondo-solido.jpg");*/
+    margin-left: 0px; 
+    margin-right: 0% ; 
+    margin-bottom: 0%;
+}
+.navbar-principal{
+    position: fixed; /*Fixed ya que queremos que la posición sea en relación al navegador*/
+    top: 0; /*El valor 0 indica que va a quedar arriba de todo*/
+    left: 0; /*Para que el menu se ubique siempre en la parte izquierda de la pantalla*/
+    width: 100%; /*100% para que ocupe todo el ancho del navegador*/
+    z-index: 100;
+    border-color: #222326;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+#section-enmedio{
+    background-color:white;
+    position: relative;
+    overflow: hidden; 
+    height: 430px;
+    margin-left: 0%;
+    padding-top: 20px;
+
+}
+#div-header2{
+    margin-left: 40px;
+    margin-right: 100px;
+}
+
+.navbarmia{
+    position: fixed;
+}
+#div-image-logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 40px;
+}
+.navbar-propiedades{
+    float: right;
+}
+#navegador{
+    margin-right: 50px;
+    margin-right: 200px;
+    margin-top: -35px;
+}
+#navegador-ul{
+    list-style-type: none;
+    text-align: center;
+}
+.li-navbar{
+    display: inline;
+    text-align: center;
+    margin: 0 20px 0 0; 
+    position:relative;
+    left: 450px;
+    top:-18px;
+    
+    
+}
+.li-divisor{
+    display: inline;
+    text-align: center;
+    
+    margin: 0 20px 0 0; 
+    color: white;
+    position:relative;
+    left: 450px;
+    top:-18px;
+}
+.configuracion-botones{
+    color: white;
+    font-size: 15px;    
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    font-family:Helvetica;
+    text-decoration: none;
+}
+
+#escucha-los-mejores{
+
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    width: 350px;
+    border: 1px;
+    padding: 20px 60px 10px 10px;
+    margin-left: 40px;
+    margin-top: 70px; 
+    font-family:Helvetica ;
+    font-weight: bold;
+}
+#segundo-dialogo{
+ color: white;
+ font-family:Helvetica ;
+ margin-top: 0%;
+ margin-bottom: 30px;
+ width:330px ;
+ font-size: 23px;
+ margin-left: 50px;
+ font-weight: bold;
+}
+#div-texto{
+    width: 360px;
+}
+.li-images{
+    display: inline;
+    text-align: center;
+    margin: 0 20px 0 0; 
+    position:relative;
+    
+}
+.contenedor{
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.contenedor2{
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.ul-images{
+    display: flex;
+    flex-flow: row wrap;
+    width: 200px;
+
+}
+.botones{
+    padding: 10px 70px 10px 50px ; /* relleno de la caja del boton*/
+    font-size: 14px;/* tamanio letra*/
+    color: white; /* color letra*/
+    background-color: #20B954; /* color fondo del boton*/
+    border-radius: 50px; /*redondear el boton*/
+     border: 1px solid rgba(107, 121, 107, 0); /*borde del boton*/
+     width: 330px; /*ancho del elemento */
+     white-space: normal; /*manejo de espacios en blanco dentro de un elemento*/
+     font-family: Helvetica;/* fuente aplicada al texto */
+     font-weight: bold; /*texto en negrita, ligero, cursiva...*/
+     letter-spacing: 2px;/* espaciado entre caracteres*/
+     margin-left: 60px;
+     margin-right: 10%;
+     
+}
+.left {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 57px;
+    float: left;
+    position: relative;
+    width: 45%;
+    height: auto;
+}
+
+.right {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+}
+.abajo-centrado {
+    padding-top: 50px;
+    padding-left: 0px;
+    margin-left: -50px;
+    position: relative;
+    float: center;
+    width: 100%;
+    height: auto;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.floats{
+    float: left;
+}
+#primer-columna-img{
+    position:absolute ; 
+    top:110px ; 
+    left: 490px
+}
+#segunda-columna-img{
+    float:left; 
+    position: absolute; 
+    left: 738px;
+    top: 110px;  
+}
+#tercera-columna-img{
+    float:left; 
+    position:absolute; 
+    left:985px; 
+    top: 110px;
+    
+}
+.espacios-predeterminados{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.espacios-letras{
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+}
+#aprovechaSpotify{
+    color: black;
+    font-family:helvetica;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    font-family:'Circular Std Bold';
+
+}
+#seccion-media{
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.li-footer{
+    display: inline;
+    text-align: center;
+    margin: 0 20px 0 0; 
+    position:relative;
+}
+.columna{
+    width:400px;
+    height: 200px;
+    box-sizing: border-box;
+    float:left;
+    /*margin:5px;*/
+    padding-left: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .columna{
+        width: 33.333333%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .columna{
+        width: 50%;
+    }
+}
+.texto-li-enmedio{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    font-family:'Circular Std Book';
+
+}
+.parrafo-section2-peq{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 5px;
+    font-family:'Circular Std Book';
+
+}
+.h5-p-s2{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000000; 
+    margin-top: -20;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-family:'Circular Std Bold';
+
+}
+
+.botones-enmedio{
+    border-bottom-color:white;
+    border-color: white;
+    border:10px solid transparent;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    color: #1dbf56;
+    font-family:'Circular Std Bold';
+    letter-spacing: 2px;
+    padding-left: 0px;
+    border-left-width: 0px;
+    
+}
+
+/*clases del footer*/
+#div-principal-footer{
+    height: 408px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 30px;
+    margin-right: 229px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+
+}
+
+.footer-a{
+    background-color:black; 
+    height: 408px;
+    width:100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.fila{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#nav-config{
+    height: 266px;
+}
+/* config divs footer*/
+#div-logo{
+float: left;
+}
+.li-footer-a{
+    position: relative;
+    text-align: left;
+    margin-bottom: 25px;
+    
+}
+.h3-footer{
+    color: white;
+    font-family:'Circular Std Book';
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 17px;
+    color: #919496;
+    letter-spacing: 2PX;
+}
+.ancla-footer{
+    color: white;
+    font-family:'Circular Std Book';
+    list-style-type: none;
+    text-decoration: none;
+    margin-bottom: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.ul-config{
+    padding-left: 0px;
+
+}
+.li-logos{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+
+}
+.img-config{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-endline{
+    margin: 100px 5% 0% 0.03%;
+
+
+}
+.li-endline{
+    float: left;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    top: 7px;
+}
+.ancla-endline{
+    color: #919496;
+    font-family:'Circular Std Book';
+    text-decoration: none;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 12px 12px 12px 12px;
+}
+#img-honduras{
+    width: 25px;
+    height: 18px;
+    font-size: 12px;
+}
+#a-honduras{
+    text-decoration: none;
+    color: #919496;
+    float: left;
+    position: relative;
+    top: -20px;
+    right: 15px;
+    bottom: 39;
+    left: 500px;
+    font-family:'Circular Std Book';
+    font-size: 12px;
+
+}
+#small-honduras{
+    position: relative;
+    left: 400px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    float:left ; 
+    color:#919496;
+    font-family:'Circular Std Book';
+
+}
+
+.titulos-footer{
+    padding-left: 20px;
+    padding-right: 80px;
+    float: left;  
+}
+
+#logos-externos{
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    width: 280px;
+    position: relative;
+    left: 30%;
+    bottom: 60%;
+   
+}
+.hover:hover{
+    color: #61e468;
+}
+.hover-ancla:hover{
+  color: #1ed760;
+}
+#ancla-enlace{
+    color:#d7771e"
+}
+/*tamanios de pantallas*/
+.col-md-2 {
+    width: 16.66666667%;
+}
+.col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
