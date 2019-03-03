@@ -1,178 +1,121 @@
 <!DOCTYPE html>
-<html>
-<head style=>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>iniciar sesion</title >
+    <title>Iniciar sesion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
-    
-    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/css_personalizado/personalizado.css">
 
+    
     <style>
-    
-    
-    .lineaNegra{
-        background-color:white;
-        border: 0.01mm solid rgb(214, 213, 213) ;
-        border-top-width: 0px;
+        #imagen-logoPrincipal-1{
+            position: relative;
+            left: 44.5% ;
+            right:44.5% ;
+            margin-top: 25px;
+        }
+        #bordes-logoPrincipal-2{
+            border: 0.01mm solid rgb(214, 213, 213);
+            border-top:0mm;
+            border-left-width: 0%;
+            border-right-width: 0%;
+            padding-bottom: 20px;
         
-        height: 85px;
-        border-left-width: 0px;
-        border-right-width: 0px;
-    }
-    
-    .formulario1{
-        width: 429px;
-        height: 33px;
-        margin-left: 38.9%;
-        margin-top: 54px;
-        
-        
-        
-    }
+        }
+        #letras-iniciesesion-3{
+            margin-left: 42%;
+            margin-top: 35px;
+            font-size: 14.7px;
+            font-weight: 740;
+            font-family: inherit;
+            letter-spacing: 1px;
+        }
+       
+        .div-configuracion{
+            margin-right: 38.5%;
+            margin-left: 38.5%;
+            margin-top: 20px;
 
-    .formulario2{
-        width: 429px;
-        height: 33px;
-        margin-left: 38.9%;
-        margin-top: 15px;
-        
-        
-    }
-
-    .imagen2{
-        
-        margin:52px auto;
-	    display:block;
-        margin-left: 151%;
-        margin-right: 151%;
-        
-
-    }
-
-    .imagen{
-    margin:25px auto;
-	display:block;
-    }
-
-    .botonfacebook{
-        position: relative;
-
-        left: 38.4%; 
-        height: 255px;
-        padding-top: 16px;
-        padding-left: 83px;
-        padding-right: 83px;
-        padding-bottom: 16px;
-        
-        border-radius: 50px;
-        color: white;
-        background-color: #3b5998;
-        font-family:Helvetica;
-        font-size: 14px;
-        font-weight: bold;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-    }
-
-    .textoDeinicia{
-        margin-top: 32.8px;
-        margin-bottom: 15px;
-        margin-left: 42%;
-        font-family:Helvetica;
-        font-size: 15.9px;
-        height: 25px;
-        font-weight: bold;
-        
-    }
-    .botoncheck{
-        width: 20px;
-        height: 20px;
-        margin-left: 39%;
-        margin-top: 30px;
-        
-    }
-
-    .botonIniciarSesion{
-        margin-left: 5.8%;
-        border-radius: 500px;
-        width: 210px;
-        height: 62px;
-        
-        background-color: #1db954;
-        font-family: Helvetica;
-        letter-spacing: 2px;
-        font-size: 16px;
-        color: white;
-    }
-    #texto-olvidadoContra{
-        color: #1db954;
-        margin-left: 24.5%;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15.5px;
-    }
-    #div-division-olvido{
-        padding-top:20px; border: 0.01mm solid rgb(214, 213, 213); height: 85px; border-top-width: 0mm; margin-left: 39%; margin-right: 39%; border-right: 0mm; border-left: 0mm;
-    }
-    #texto-notienescuenta{
-        margin-left: 45%;
-        margin-top: 34px;
-    }
-    #boton-suscribite{
-        border: 2px solid #ccc;
-        border-radius: 50px;
-        padding-left: 100px;
-        padding-top: 20px;
-        padding-right: 100px;
-        margin-left: 45%;
-        
-    }
+        }
+        .form1-configuracion{
+            margin-left: 38.8%;
+            margin-right: 38.8%;
+            width: 450px;
+            height: 40px;
+            margin-bottom: 10px;
+            border:  rgb(214, 213, 213) 0.01mm solid;
+            
+        }
+        input::-webkit-input-placeholder {
+            color: rgb(184, 181, 181);
+            font-family: inherit;
+            font-size: 16px;
+            
+        }
+        #letras-recuerdame-4{
+            font-size: 16px;
+            color: rgb(151, 148, 148);
+            padding-top: 18px;
+            
+        }
               
-    
+        #barra-4{
+            margin-left: 38.5%;
+            margin-right: 38%;
+            margin-top:40px;
+        }    
+        
+
     </style>
 
-    
-
 </head>
-<body >
-    <header>
-        <div class="lineaNegra">
-            <img class="imagen" src="one/logo-formulario.png" alt="">
+
+
+<body>
+    <div >
+        <div  id="bordes-logoPrincipal-2">
+            <img id="imagen-logoPrincipal-1" src="one/logo-formulario.png" alt="">
         </div>
         <div>
-            <h4 class="textoDeinicia" >Para continuar, inicia sesion en Spotify.</h4>
+            <H5 id="letras-iniciesesion-3">Para continuar, inicia sesión en Spotify.</H5>
         </div>
+        <div style="margin-top:25px;">
+            <a  href="" class="btn-editor" >INICIAR SESION CON FACEBOOK</a>
+        </div>
+        <div class="div-configuracion">
+            <img src="one/Sin título.png" alt="">
+        </div>
+        <form >
+            <input class="form1-configuracion" type="text" value="" placeholder="  Direccion de correo o nombre de usuario">
+            
+            <input class="form1-configuracion" type="text" value="" placeholder="  Direccion de correo o nombre de usuario">
 
-    </header>
-    <main >
-        <div >  
-            <a href="" class="botonfacebook" >INCIAR SESION CON FACEBOOK</a>
-        </div>
-        <div style="position:absolute;top: 170px" >
-            <img class="imagen2" src="one/Sin título.png" >
-        </div>
-        <div >
-            <input class="formulario1" type="text" placeholder="Direccion de correo o nombre de usuario">
-            <input class="formulario2" type="text" placeholder="Contraseña" > 
-        </div>
+        </form>
         <div>
-                 <input  class="botoncheck" type="checkbox" name="recuerdame" id="recuerdame"> <label style="color: rgb(134, 134, 134)" for="recuerdame">Recuerdame</label>
-             <input class="botonIniciarSesion" type="button" value="INICIAR +<br/>+ SESION" >
-
+            
+            <label class="container">
+                <input type="checkbox"><p id="letras-recuerdame-4">Recuerdame <a  href="" class="btn-editor2" >Iniciar sesion</a></p>
+                <span class="checkmark"></span>
+            </label>
+            <div style="margin-top:35px;" >
+                <a class="btn-editor3" href="">¿Se te a olvidado la contraseña?</a>
+            </div>  
+            <div id="barra-4">
+                <hr>
+            </div>
+            
         </div>
-
-        <div id="div-division-olvido">
-            <a id="texto-olvidadoContra" href="">¿Se te ha olvidado la contraseña?</a>
-        </div>
-        <div id="texto-notienescuenta">
-             <h5><b>¿No tienes cuenta?</b></h4>
-        </div>
-        <div>
-            <a id="boton-suscribite" href="">suscribete a spotify</a>
-        </div>
-
-    </main>   
+        
+    
+    </div>    
 
 </body>
 </html>
+
+
+
+
