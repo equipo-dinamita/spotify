@@ -38,20 +38,14 @@
     border-color: #28a745;
     position: relative;
     border-radius: 50px;
-    width: 352px;
-    height: 46px;
-    margin-left: 793px;
-    margin-right: 40px;
-    margin-top: -5px;
-    margin-bottom: 0px;
-    padding: 10px 60px 10px 60px;
-    font-size: 18;
+    width: 295px;
+    height: 47px;
+    font-size: 16px;
     font-weight: bold;  
-    line-height: 0px;
-    margin-bottom: 350px;
-    text-align: center;
-    margin-right: 50%;
-    margin-left: 50%;
+    line-height: 12px;
+    top: 334px;
+    left: 41.8%;
+    letter-spacing: 2px;
 }
 .btn-button-green-landing-page{
     color: #fff;
