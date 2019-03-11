@@ -1,0 +1,467 @@
+@media only screen and (max-width:600px){
+    footer{
+        height: 155px;
+    }
+}
+@media only screen and (min-width:400px){
+    footer{
+        height: 200PX;
+    }
+}
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+      transition: none;
+    }
+  }
+.btn-success2{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    position: relative;
+    border-radius: 50px;
+    width: 373px;
+    height: 60px;
+    margin-left: 793px;
+    margin-right: 40px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 10px 60px 10px 60px;
+    font-size: 20px;
+    font-weight: bold;  
+    line-height: 0px;
+    margin-bottom: 350px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 17%;
+    top: 163px;
+    text-transform: uppercase; 
+}
+
+.btn-success2:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+.btn-button-green-landing-page{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    position: relative;
+    border-radius: 50px;
+    width: 295px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: bold;  
+    line-height: 12px;
+    top: 334px;
+    left: 41.8%;
+    letter-spacing: 2px;
+}
+.btn-button-green-landing-page{
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+
+.btn-button_premium{
+
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 43.5%;
+    top:5px;
+    border: 10px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    top: 15px;
+}
+.btn-button_premium:hover{
+    color: rgb(49, 87, 197);
+    background-color:transparent;
+    border: 10px solid transparent;
+}
+
+
+
+.btn-button_ayuda{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 44.1%;
+    top:5px;
+    border: 10px solid transparent;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    top: 15px;
+}
+.btn-button_ayuda:hover{
+    color: rgb(49, 87, 197);
+    background-color:transparent;
+    border: 10px solid transparent;
+}
+
+
+.btn-button_descargar{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 44.7%;
+    top:5px;
+    border: 10px solid transparent;
+    /*width: 60px;*/
+    font-size: 15x;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    top: 15px;
+}
+.btn-button_descargar:hover{
+    color: rgb(49, 87, 197);
+    background-color:transparent;
+    border: 10px solid transparent;
+}
+
+.btn-button_resgistrate{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 46.8%;
+    top:5px;
+    border: 10px solid transparent;
+    /*width: 60px;*/
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    top: 15px;
+
+}
+.btn-button_resgistrate:hover{
+    color: rgb(49, 87, 197);
+    background-color:transparent;
+    border: 10px solid transparent;
+}
+
+.btn-button_iniciar_sesion{
+    background-color:transparent;
+    color:white;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    position:relative;
+    left: 47.4%;
+    top:5px;
+    border: 10px solid transparent;
+        /*width: 60px;*/
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    top: 15px;
+}
+.btn-button_iniciar_sesion:hover{
+    color: rgb(49, 87, 197);
+    background-color:transparent;
+    border: 10px solid transparent;
+}
+
+#panel{
+    background-color:#509BF5;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+}
+#imagen_logo{
+    width: 135px;
+    margin: 7px 0px 0px ;
+    left: 20%;
+    position: relative;
+}
+/* borde azul  */
+#panel_blue{
+    background-color: #509BF5;
+    width: 100%;
+    height: 624px;
+    position: relative;
+}
+#text_1{
+    color: white;
+    text-align: center;
+    font-family: Helvetica,Arial,  sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    top: 117px;
+    left: -73px;
+    letter-spacing: 0.4px;
+}
+#text_2{
+    color: white;
+    text-align: center;
+    font-family: Helvetica,Arial,  sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 117px;
+    left: -93px;
+    letter-spacing: 0.7px;
+}
+#button_green{
+    color: white;
+    background-color: rgb(29,185,84);
+    position: relative;
+    border: 10px solid rgb(29,185,84);
+    border-radius: 50px;
+    width: 373px;
+    height: 60px;
+    margin-left: 793px;
+    margin-right: 40px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    padding: 10px 60px 10px 60px;
+    font-size: 20px;
+    font-weight: bold;  
+    line-height: 0px;
+    margin-bottom: 350px;
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 17%;
+    top: 163px;
+    text-transform: uppercase;
+}
+#text_down_blue{
+    color:white;
+    position: relative;
+    left:32.5%;
+}
+#button_terminos_y_condiciones{
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+    color:white;
+    font-size: 13px;
+    text-decoration:underline;
+    letter-spacing: 0.6px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#position_h6_1{
+    position: relative;
+    left: 55%;
+    letter-spacing: 0.9px;
+    width: 120px;
+    font-size: 12px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}        
+#position_h6_2{
+    position: relative;
+    right: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.47px;
+    width: 500px;
+    font-size: 12px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#woman_panel_02{
+    position: relative;
+    
+    top: -17px;
+    height: 640px;
+    background-image: url(imagenes/woman_panel_02.png);
+}
+#panel_white_03{
+    background-color: #ffffff;
+    width: 100%;
+    height: 635px;
+}
+#label_premium{
+    text-align: center;
+    font-size: 53px;
+    font-family:  Helvetica;
+    top:45px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    top: 10px;
+    margin-top: 47px;
+}
+#imagen_panel_03{
+    position: relative;
+    top: -25px;
+    text-align: center;
+}
+.letras_tabla_panel_03{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    left: center;
+    background-position: center center;
+    top:18px;
+    left: 37.2%;
+    width: 300px
+}
+.letras_tabla2_panel_03{
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    left: center;
+    background-position: center center;
+    left: 37.2%;
+    top: 35px;
+    
+}
+#config_table{
+    position: relative;
+    top:-35px;
+}
+#panel_white_04{
+    background-color: rgb(248,248,248);
+    position: relative;
+    height: 900px;
+}
+#text_panel_white_04{
+    text-align: center;
+    color: black;
+    font-size: 34px;
+    letter-spacing: -1.4px;
+    font-weight: bold;
+    top: 27px;
+    position: relative;
+}
+#text_panel_white2_04{
+    text-align: center;
+    color: rgb(220, 217, 216);
+    font-size: 12px;
+    position: relative;
+    width: 590px;
+    left: 34.2%;
+    top: 30px;
+}
+#panel_black_05{
+    height: 122px;
+    background-color: black;    
+}
+#button-idioma-honduras{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent;
+    padding-right: 0px;
+    left: 76.9%;
+    position: relative;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    top: 19px;
+}
+#button-option-idioma{
+    border-top-width: 500px; 
+    color:white ;
+    background-color:transparent; 
+    padding:0px; 
+    border: 10px solid transparent; 
+    position: relative;
+    left: 76%;
+    top: 15px;
+}
+.panel_black_label{
+    position: relative;
+    background-color: transparent;
+    border: 10px solid transparent;
+    color: #919496;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    top: 12px;
+}
+#label-spotify-abajo{
+    position: relative;
+    background-color:transparent;
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent;
+    left: 76.2%; 
+    top: -15px; 
+    font-size:12px; 
+    letter-spacing: 0.28px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+    bottom: 0px;
+    font-family: circular,Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+
+
+#nav_row_2{
+    width: 80.083%;
+    height: 80px;
+    margin-left: 9.9585%;
+    margin-right: 9.9585%;
+    margin-right: 0px;
+}
+#button-option-idioma{
+    border-right-width: 1px;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    color:white ;
+    width: 150px ;
+    position:relative; top:12px
+}
+#panel-down-two{
+    background-color:black;
+    width:100% ;
+    height:129px ;
+}
+#button-information-town{
+    top: 0px;
+    background-color: transparent;
+    color:#919496;
+    border:10px solid transparent;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    margin: 0px 30px 0px 10px;
+}
+#button-panel-down{
+    color: white;
+    font-size: 13px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#button-idioma-honduras{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent;padding-right: 0px
+}
+#label-spotify-abajo{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent; 
+    top: 8px; 
+    font-size:14px; 
+    letter-spacing: 0.28px;
+
+}
+#footer{
+    background-color: black;
+}
+/* termina el footer */
