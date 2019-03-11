@@ -1,0 +1,178 @@
+@media only screen and (max-width:600px){
+    .div-config{
+        left: 36%;
+        right: 43%;
+    }
+}
+
+@media only screen and (min-width:600px){
+    .div-config{
+        left: 44%;
+        right: 44%;
+    }
+}
+
+.div-config{
+    border-top: 0%;
+    
+    
+}
+#imagen-config{
+    padding-top: 20px;
+
+}
+#hr-config{
+    position: relative;
+    top: 90px;
+}
+
+.main-config{
+    
+}
+
+#div-config2{
+    position: fixed;
+    top: 145px;
+    left: 41.5%;
+}
+#h6-config{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:600px){
+    #div-config2{
+        width: 320px; 
+        right: 30%;
+        left: 24.5%;
+
+    }
+}
+
+#div-config3{
+    position: fixed;
+    top: 190px;
+    left: 37.5%;
+    right: 0%;
+    width: 550px;
+}
+
+@media only screen and (max-width:600px){
+    #div-config3{
+        width: 480px; 
+        right: 30%;
+        left: 10%;
+
+    }
+}
+
+#boton-configuracion{
+    background-color: #3b5998;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration-line: none;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-left: 80px;
+    padding-right:80px;
+    padding-bottom: 15px;
+    transition: 2s;
+}
+
+.ul-config{
+    list-style-type:none;
+    left: 76%;
+    top: 34%;
+    position: relative;
+    padding-left: 0px;
+}
+.liconfig{
+    position: relative;
+    width: 440px;
+}
+
+@media only screen and (max-width:600px){
+    .ul-config{
+        
+        left: 12%;
+
+    }
+}
+input::-webkit-input-placeholder {
+    color:rgb(180, 179, 179);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+#boton-registrate{
+    position: relative;
+    left: 57%;
+    bottom: 20px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration-line: none;
+    background-color: #1db954;
+    transition-duration: 2s;
+}
+
+#boton-registrate:hover{
+    background-color: #1ed760;
+}
+
+#boton-olvidado{
+    position: relative;
+    top: 25px;
+    left: 24%;
+    color: #1db954;
+    transition-duration: 1.3s;
+}
+
+#boton-olvidado:hover{
+    text-decoration-line: none;
+    color: #48e07e
+
+}
+
+#hr2{
+    position: relative;
+    top: 55px;
+}
+#h5{
+    position: relative;
+    top: 81px;
+    left: 129px;
+}
+
+#boton-final{
+    background-color: white;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration-line: none;
+    border-radius: 30px;
+    padding-top: 12px;
+    padding-left: 95px;
+    padding-right:95px;
+    padding-bottom: 15px;
+    transition: 2s;
+    position: relative;
+    top: 102px;
+    left: 17px;
+}
+
+#boton-final:hover{
+    background-color: #616467;
+    color: white;
+}
+#hr3{
+    position: relative;
+    top: 121px;
+}
