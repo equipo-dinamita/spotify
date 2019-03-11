@@ -1,0 +1,54 @@
+#letras-h1{
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+    text-align: center !important;
+    }
+#letras-h6{
+    text-align: center;
+    color:white;
+}   
+
+#boton-1{
+    background-color: #1DB954;
+    color: white;
+    text-decoration-line: none;
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-bottom: 13px;
+    transition: 2s;
+}
+#boton-1:hover{
+    background-color: #1ED760;
+}
+.contenedorExterior {
+    display: table;
+    width: 100px; /* anchura del padre */
+    height: 100px; /* altura del padre */
+    overflow: hidden;
+}    
+
+#configuracion-li{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ul-config{
+    list-style-type: none;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        margin-top:200px;
+    }
+}
+
+@media only screen and (min-width:600px){
+    body{
+        margin-top:350px;
+    }
+}
+
+
