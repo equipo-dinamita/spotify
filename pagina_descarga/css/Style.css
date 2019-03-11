@@ -1,0 +1,466 @@
+@media only screen and (max-width:600px){
+    section{
+        height: 542px;
+    }
+}
+@media only screen and (min-width:600px){
+    section{
+        height: 1015PX;
+    }
+}
+
+
+#body{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    background-color:#000000;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+}
+
+#imagen_logo{
+    width: 135px;
+    top:20px;
+    left: 20%;
+    position: relative;
+}
+#div_01_01{
+    width: 100%;
+    height: 100%;
+}
+#div_01_02{
+    background-color: #19e68c;
+    position: relative;
+    width: 100%;
+    height: 542px;
+}
+#div_01_03{
+    margin-bottom: 30px;
+    padding-left: 1.039%;
+    padding-right: 1.039%;
+    padding-top: 14.9497%;
+    padding-bottom: 7.959%;
+}
+#div_01_04{
+    margin-left: 8.128%;
+    margin-right: 8.128%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+#nav_row{
+    padding-top: 8%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+#imagen_seccion_01{
+    width: 50%;
+}
+#text_panel_02_while{
+    font-size: ;
+    line-height: 70px;
+    color: white;
+    width: 100%;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: -0.2px;
+    margin-bottom: 2.423%;
+    margin-top: 4.846%;
+    padding-left: 2.596%;
+    padding-right: 2.596;
+}
+@media only screen and (max-width:600px){
+    section{
+        height: 542px;
+    }
+}
+@media only screen and (min-width:600px){
+    section{
+        height: 1015PX;
+    }
+}
+
+
+#body{
+    width: 100%;
+    height: 100%;
+    background:cover;
+}
+#header{
+    background-color:#000000;
+    width: 100%;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+}
+
+#imagen_logo{
+    width: 135px;
+    top:20px;
+    left: 20%;
+    position: relative;
+}
+#div_01_01{
+    width: 100%;
+    height: 100%;
+}
+#div_01_02{
+    background-color: #19e68c;
+    position: relative;
+    width: 100%;
+    height: 542px;
+}
+#div_01_03{
+    margin-bottom: 30px;
+    padding-left: 1.039%;
+    padding-right: 1.039%;
+    padding-top: 5%;
+    padding-bottom: 7.959%;
+}
+#div_01_04{
+    margin-left: 8.128%;
+    margin-right: 8.128%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+#nav_row{
+    padding-top: 8%;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+#imagen_seccion_01{
+    width: 50%;
+}
+#text_panel_02_while{
+    color: white;
+    width: 100%;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2.423%;
+    margin-top: 4.846%;
+    padding-left: 17%;
+    padding-right: 17%;
+    text-align: justify;
+}
+#p_letras{
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#botones_div_01{
+    color: white
+}
+#div_02_01{
+    position: absolute;
+    width: 100%;
+    height: 340px;
+}
+#div_02_02{
+    margin-top:-2.01%;
+    padding-top: 2.01%;
+    padding-bottom: 5.761%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#div_02_03{
+}
+#div_02_03_01{
+    position: relative;
+    margin-left: 20%;
+    height: 150px;
+}
+#h3_text{ 
+    
+    position: relative;
+    font-family: circular, Arial, Helvetica, ;
+    font-size: 34px;
+    color: #222326;
+    line-height: 51px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 55px;
+}
+#p_text{ 
+    
+    position: relative;
+    font-family: circular, Arial, Helvetica, ;
+    font-size: 20px;
+    color: #222326;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+
+#div_02_04_01{
+    position: relative;
+    margin-left: 8.3%;
+}
+#div_02_04_02{
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+}
+
+#div_03{
+    width: 100%;
+    height: 496px;
+    background-color: #222326;
+}
+#AppStore{
+    border-radius:5%;
+    position: relative; 
+    border: 10px solid transparent;
+    background-color: rgb(248, 248, 248);
+    border-left: 0;
+    border-right-width: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#PlayStore{
+    border-radius:5%;
+    position: relative; 
+    border: 10px solid transparent; 
+    background-color: rgb(248, 248, 248);
+    border-left-width: 0px;
+    border-right-width: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#Microsoft{
+    border-radius:5%;
+    position: 
+    relative; 
+    border: 10px solid transparent; 
+    background-color: rgb(248, 248, 248);
+    border-left: 0;
+    border-right-width: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#imagen_dispositivos{
+    width: 100%;
+    height: 496px;
+    background-color: #222326;
+    
+}
+.button_panel_04{
+    color:#1db954;
+    background-color: transparent;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 10px solid transparent;
+    text-decoration: underline;
+}
+.text2_panel_04{
+    color: #ffffff;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.punto_panel_04{
+    color: #1db954;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    content: "•";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+}
+
+#panel_03{
+    position: relative;
+    width: 100%;
+    height: 337px;
+    background-color: rgb(248, 248, 248)
+}
+#text_panel_03_1{
+    font-family: circular, Arial, Helvetica, ;
+    font-size: 34px;
+    color: #222326;
+    line-height: 51px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 55px;
+}
+#text_panel_03_2{
+    font-family: circular, Arial, Helvetica, ;
+    font-size: 20px;
+    color: #222326;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+#AppStore{
+    border-radius:5%;
+    position: relative; 
+    border: 10px solid transparent;
+    background-color: rgb(248, 248, 248);
+    border-left: 0;
+    border-right-width: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#PlayStore{
+    border-radius:5%;
+    position: relative; 
+    border: 10px solid transparent; 
+    background-color: rgb(248, 248, 248);
+    border-left-width: 0px;
+    border-right-width: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#Microsoft{
+    border-radius:5%;
+    position: 
+    relative; 
+    border: 10px solid transparent; 
+    background-color: rgb(248, 248, 248);
+    border-left: 0;
+    border-right-width: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#Stilo_de_panel_03_table{
+    position: relative;
+    left: 38.9%;
+    top: 70px;
+}
+#panel_04{
+    position: relative;
+    width: 100%;
+    height: 496px;
+    background-color: #222326;
+    background-image: url(imagenes/dispositivos.png);
+}
+#text_panel04{
+    text-align: center;
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 51px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    position: relative;
+    top:278px;
+    font-weight: bold;
+}
+.text2_panel_04{
+    color: #ffffff;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.punto_panel_04{
+    color: #1db954;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    content: "•";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button_panel_04{
+    color:#1db954;
+    background-color: transparent;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border: 10px solid transparent;
+    text-decoration: underline;
+}
+#table_panel_04{
+    position: relative;
+    top: 278px;
+    left: 23.2%;
+}
+#table2_panel_04{
+    position: relative;
+    top: 267px;
+    left: 44%;
+}
+
+
+
+/*
+
+
+nav2
+
+*/
+#nav_row_2{
+    width: 80.083%;
+    height: 80px;
+    margin-left: 9.9585%;
+    margin-right: 9.9585%;
+    margin-right: 0px;
+}
+#button-option-idioma{
+    border-right-width: 1px;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    color:white ;
+    width: 150px ;
+    position:relative; top:12px
+}
+#panel-down-two{
+    background-color:black;
+    width:100% ;
+    height:129px ;
+}
+#button-information-town{
+    top: 0px;
+    background-color: transparent;
+    color:#919496;
+    border:10px solid transparent;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    margin: 0px 30px 0px 10px;
+}
+#button-panel-down{
+    color: white;
+    font-size: 13px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#button-idioma-honduras{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent;padding-right: 0px
+}
+#label-spotify-abajo{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent; 
+    top: 8px; 
+    font-size:14px; 
+    letter-spacing: 0.28px;
+
+}
+/* termina el footer */
