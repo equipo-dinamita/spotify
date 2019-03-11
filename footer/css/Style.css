@@ -1,0 +1,191 @@
+@media only screen and (max-600px){
+    footer{
+        height: 500px;
+    }
+}
+@media only screen and (min-400px){
+    footer{
+        height: 833.194PX;
+    }
+}
+/* footer */
+/*
+
+
+nav1
+
+*/
+#footer_landig_page2{
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    padding-top:5.366% ;
+    padding-bottom: 5.366%;
+}
+#body_landin_page_provisional{
+    margin: 0px 0px 0px 0px;
+}
+#nav_row{
+    width: 80.083%;
+    margin-left: 9.9585%;
+    margin-right: 9.9585%; 
+}
+.ul_conf{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#imagen_logo{
+    width:143;
+}
+#COMPAÑIA{
+    width: auto;
+    padding-left: 0px;
+    color:#919496;
+    top: 10px;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin-top: 9.159%;
+    margin-bottom: 9.159%;
+}
+.contenido_lista{
+    background-color: transparent;
+    border: 10px solid transparent;
+    color: white;
+    border-bottom:0px;
+    border-top:0px;
+    border-left: 0px;
+    border-right: 0px; 
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin-left: 0%;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: auto;
+}
+#ENLACES{
+    width: auto;
+    padding-left: 0px;
+    color:#919496;
+    top: 10px;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin-top: 9.159%;
+    margin-bottom: 9.159%;
+}
+#COMUNIDADES{
+    width: auto;
+    padding-left: 0px;
+    color:#919496;
+    top: 10px;
+    font-size: 12px;
+    line-height: 17px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin-top: 9.159%;
+    margin-bottom: 9.159%;
+}
+
+#button-instagram{
+    border-radius:100%; border: 10px solid transparent;background-repeat: no-repeat; background-color: black;  padding: 0px 0px 0px 0px;
+    margin-bottom: 12px; 
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+#button-twitter{
+    border-radius:100%; border: 10px solid transparent;background-repeat: no-repeat; background-color: black;  padding: 0px 0px 0px 0px;
+    margin-bottom: 12px; 
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+#button-facebook{
+    border-radius:100%; border: 10px solid transparent; padding: 0px 0px 0px 0px; background-color: black;
+    margin-bottom: 12px; 
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+}
+/*
+
+
+nav2
+
+*/
+#nav_row_2{
+    width: 80.083%;
+    height: 80px;
+    margin-left: 9.9585%;
+    margin-right: 9.9585%;
+    margin-right: 0px;
+}
+#button-option-idioma{
+    border-right-width: 1px;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    color:white ;
+    width: 150px ;
+    position:relative; top:12px
+}
+#panel-down-two{
+    background-color:black;
+    width:100% ;
+    height:129px ;
+}
+#button-information-town{
+    top: 0px;
+    background-color: transparent;
+    color:#919496;
+    border:10px solid transparent;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    margin: 0px 30px 0px 10px;
+}
+#button-panel-down{
+    color: white;
+    font-size: 13px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.28px;
+    border: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+#button-idioma-honduras{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent;padding-right: 0px
+}
+#label-spotify-abajo{
+    background-color:transparent; 
+    color:#919496; 
+    border-bottom: transparent;
+    border: 10px solid transparent; 
+    top: 8px; 
+    font-size:14px; 
+    letter-spacing: 0.28px;
+
+}
+/* termina el footer */
+
+
+
+
+
+
+
+
+
