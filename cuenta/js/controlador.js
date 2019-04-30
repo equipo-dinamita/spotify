@@ -164,6 +164,28 @@ $(document).ready(function(){
     
 });
 
+$('#EnviarInvitacion').click(function(){
+    console.log("hola que tal");
+    var parametros = 
+        'Nombre='+$("#Nombre").val()+"&"+
+        'Apellido='+$("#Apellido").val()+"&"+
+        'DireccionEmail='+$("#DireccionEmail").val();
+    console.log("Esto se enviará al servidor: "+parametros);
+
+    $.ajax({
+        url:"ajax/vista-cuenta.php?accion=enviarCorreo",
+        method:"POST",
+        data:parametros, //La información en formato URLEncoded
+        dataType: 'json', //tipo de dato de retorno, por defecto es html
+        success:function(){
+            console.log("bien");
+        },
+        error:function(error){
+			console.error(error);
+		}
+    });
+});
+
 
 
                 

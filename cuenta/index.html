@@ -18,7 +18,12 @@
     <link rel="stylesheet" href="css/estilo-icono.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <style>
-    
+        #ul-congig1{
+            list-style-type:none;
+        }
+        #EnviarInvitacion{
+            text-decoration-line: none;
+        }
     </style>
 
 </head>
@@ -131,39 +136,37 @@
                    <div class="col-sm-9">
                       <div  id="todo-contenido" class="contenedor" style="padding-bottom:2px;"> <!--content-->
                         <div><!--content top-->
-                            <div class="div-vista"><!--page header-->
-                                <h1 class="vista-general">Vista general de la cuenta</h1>
-                            </div><!--page header-->
                             
-                            <div class="row">
-                                <div class="col-md-6"><!--tarjeta de perfil-->
-                                    <div id="cuenta" class="tarjeta-perfil"><!--well card profile-->
-                                      
-                                    </div><!--well card profile-->
-                                </div><!--tarjeta de perfil-->
-                        
-                                <div class="col-md-6 tarjeta-perfil"><!-- tarjeta suscripcion-->
-                                    <h3 class="text-primario">Plan familiar premium</h3> 
-                                    <p class="parrafos-form">Eres miembro de un plan familiar</p>   
-                                    <a class="btn-labels" href="">Administrar plan</a>
-                                    <br>
-                                    <br>
-                                    <h3 class="text-primario">Gestiona tus miembros</h3> 
-                                    <p class="parrafos-form">Eres miembro de un plan familiar</p>   
-                                    <a class="btn-labels" href="">Administrar plan</a>
-                                </div><!-- tarjeta suscripcion-->
+
+                            <div>
+                                <h2>Invitar a un familiar</h2>
                             </div>
-                            <div class="tarjeta-perfil"><!--well card-->
-                                <h3 class="text-primario">Cierra sesion en todas partes</h3>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <p class="parrafos-form">Cierra sesión dondequiera que tengas Spotify abierto, lo que incluye la web, el celular, tu computadora de escritorio o cualquier otro dispositivo.</p>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <a class="btn-labels" href="">Cierra sesion en todas partes</a>
-                                    </div>
-                                </div>
-                            </div><!--well card-->
+                            <div>
+                                <h4>¿A quienes quieres invitar?</h4>
+                            </div>
+                            <ul id="ul-congig1">
+                                <li>
+                                    <div><h6>Nombre</h6></div>
+                                    <input type="text" id="Nombre" placeholder="Nombre">
+                                </li>
+                                <li>
+                                    <div><h6>Apellido</h6></div>
+                                    <input type="text" id="Apellido" placeholder="Apellido">
+                                </li>
+                                <li>
+                                    <div><h6>Direccion de email</h6></div>
+                                    <input type="text" id="DireccionEmail" placeholder="Direccion de email">
+                                </li>
+                                <li>
+                                    <h1></h1>
+                                    <button id="EnviarInvitacion" >Enviar invitacion</button>
+                                </li>
+                            </ul>
+                            
+
+
+
+
                         </div><!--content top-->
                       </div><!--content-->
                    </div>
@@ -262,5 +265,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
 </body>
 </html>

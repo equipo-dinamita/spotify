@@ -43,5 +43,13 @@
             return json_encode($respuesta);
         }
 
+        public function guardar(){
+          $archivo = fopen("data/usuarios.json","a+"); //r Lectura, w Escritura, a+ Anexar
+          fwrite($archivo,$this->__toString()."\n"); //Convertir arreglo a cadena JSON
+          fclose($archivo);
+          
+
+      } 
+
     }  
 ?>
