@@ -205,7 +205,7 @@ a, a:hover, a:focus {
 }
 #sidebar ul li a:hover {
     color:  #222326;
-    background: #fff;
+    background: rgb(0, 0, 0);
 }
 
 #sidebar ul li.active > a, a[aria-expanded="true"] {

@@ -5,7 +5,9 @@
       protected $email;
       protected $fechaNacimiento;
       protected $pais;
-      protected $usuario;  
+      protected $usuario; 
+      protected $tipoPlan;
+      protected $tarjeta; 
 
     public function __construct(
       $codigoUsuario,
@@ -13,7 +15,9 @@
       $email,
       $fechaNacimiento,
       $pais,
-      $usuario
+      $usuario,
+      $tipoPlan,
+      $tarjeta
     ){
       $this->codigoUsuario= $codigoUsuario;
       $this->nombreUsuario= $nombreUsuario;
@@ -21,6 +25,8 @@
       $this->fechaNacimiento= $fechaNacimiento;
       $this->pais= $pais;
       $this->usuario= $usuario; 
+      $this->tipoPlan = $tipoPlan;
+      $this->tarjeta = $tarjeta;
     }
 
         public function __toString(){
@@ -30,26 +36,14 @@
           $b["fechaNacimiento"]=$this->fechaNacimiento;
           $b["pais"]=$this->pais;
           $b["usuario"]=$this->usuario;
+          $b["tipoPlan"]=$this->tipoPlan;
+          $b["tarjeta"]=$this->tarjeta;
            
           return json_encode($b);
         }
         public static function obtenerUsuarios(){
-            $archivo= fopen("../data/usuarios.json", "r");
-            $respuesta = array();
-            while(($linea=fgets($archivo))){
-                $respuesta[] = json_decode($linea,true); 
-            }
-            fclose($archivo);
-            return json_encode($respuesta);
+            return file_get_contents("../data/usuarios.json");
         }
-
-        public function guardar(){
-          $archivo = fopen("data/usuarios.json","a+"); //r Lectura, w Escritura, a+ Anexar
-          fwrite($archivo,$this->__toString()."\n"); //Convertir arreglo a cadena JSON
-          fclose($archivo);
-          
-
-      } 
 
     }  
 ?>

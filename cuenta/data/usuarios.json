@@ -1,1 +1,14 @@
-{"codigoUsuario":0,"nombreUsuario":"Victor Javier Amaya","email":"photojavhn@gmail.com","fechaNacimiento":"12/12/1998","pais":"Honduras","usuario":"vamayahn"}
+[
+    {"codigoUsuario":0,
+     "nombreUsuario":"Victor Javier Amaya",
+     "email":"photojavhn@gmail.com",
+     "contrasena":"asd.456",
+     "genero":"Masculino",
+     "fechaNacimiento":"12/12/1998",
+     "telefono":"9733-3314",
+     "pais":"Honduras",
+     "usuario":"vamayahn",
+     "tipoPlan":"Premium",
+     "tarjeta":[{"nombreTarjeta":"MasterCard ****8003","vencimiento":"Vencimiento : 12/12/12"}]
+    }
+]
