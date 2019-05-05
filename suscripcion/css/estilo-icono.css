@@ -1,0 +1,547 @@
+.icono{
+    float: left!important;
+    width: 18px!important;
+    margin: 10px 34px 30px 34px!important;
+}
+
+.li-solo{
+    border-bottom-color:white;
+    border-top-color: rgba(255, 255, 255, 0.05)!important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.005);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    border-width: 5px;
+   
+}
+.margen-li{
+    margin-bottom: 10px;
+}
+#toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.lista-nav{
+    margin-left: auto!important;
+}
+.nav-general{
+    background-color:#000000;
+    height: 90px;
+}
+.letras-nav{
+    color: white !important;
+}
+.botton-setup{
+    color: white!important;
+    border-color: white!important;
+}
+.custom-toggler.navbar-toggler {
+    border-color: #000000;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-collapse {
+    height: 100%;
+}
+.nav-max{
+background-color: black;
+}
+@media only screen and (max-width: 992px){
+   .nav-general{
+       background-color: black!important;
+       height: 60px;
+   }
+}
+.navbar-brand{
+    margin-left: 5%;
+
+}
+.hover:hover{
+    background-color: #1ed760;
+
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+@media screen and (min-width: 400px) {
+    .container {
+      height: 400px;
+      width: 970px;
+    }
+}
+.contenido{
+
+}
+
+@media screen and (min-width: 400px) {
+    .contenido {
+      padding-left: 60px;
+      padding-right: 48px;
+      padding-top: 55px;
+      padding-bottom: 48px;
+    }
+}
+@media screen and (min-width: 400px) {
+    .col-sm-7 {
+      width: 58.333333%;
+    }
+}
+.contenido-escrito{
+
+}
+@media screen and (min-width: 400px) {
+    .contenido-escrito {
+    float: left    
+    }
+}
+.h1-aqui-todos{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f8f8f8;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-top: 24px;
+    margin-bottom: 12px;
+
+}
+.parrafo{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    margin: 1em 0;
+    color: #f8f8f8;
+}
+
+.section2{
+    background-color: white;
+    padding-left: 0px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    height: 100%;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+a, a:hover, a:focus {
+    color: #919496!important;
+    text-decoration: none;
+    transition: all 0.3s;
+
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #222326;
+    color: #fff;
+    transition: all 0.3s;
+    border-color: #C1C3C6;
+    height: 100%;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #222326;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #232425;
+}
+
+#sidebar ul p {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+#sidebar ul li a:hover {
+    color:  #222326;
+    background: rgb(0, 0, 0);
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background:  #222326;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background:  #222326;
+}
+.li-var{
+    fill: #C1C3C6;
+    padding: 15px 15px 15px 30px;
+    color: #919496;
+}
+.contenedor-li{
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px!important;
+    list-style: none;
+
+}
+
+.user-img{
+    width: 64px;
+    height: 64px;
+    margin: 30px auto;
+    color: transparent;
+    border-radius: 50%;
+    display: block;
+    max-width: 100%;
+}
+
+.form-grupo{
+    margin-bottom: 20px;
+}
+.control-label{
+    color: #919496;
+    font-weight: 400; 
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #D9DADC;
+    border-radius: 0;
+}
+
+.borde-botones{
+    float: left;
+}
+@media only screen and (min-width:768px){
+    .borde-botones{
+        float: right !important;
+    }
+}
+
+.btn-nueva-contrasena{
+    max-width: 290px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 10px 32px;
+    transition-duration: .3s;
+    border-width: 0;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid 
+}
+.btn-verde{
+    color: #FFF;
+    background-color: #1DB954; 
+}
+.btn-cancelar{
+    margin-right: 20px;
+    float: right !important;
+    color: #000; 
+    max-width: 290px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 500px;
+    padding: 10px 32px;
+    margin-bottom: 0;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    text-decoration: none;
+    background-color: transparent;
+}
+#div-planfamiliar{
+    background-color: white;
+    height: 414px;
+    margin-top: 40px;
+}
+#div-gestionar{
+    background-color: white;
+    height: 190px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+#div-espacio{
+    height: 2px;
+}
+#text-tu-plan-1{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+#text-tu-plan-2{
+    font-weight: bold;
+}
+.text-plan-premium{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.text-plan-premium2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#button-cambiar{
+    width: 280px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}
+#cuadro-mastercard{
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(248, 248, 248);
+    
+}
+#button-actualizar{
+    width: 280px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}
+#button-ir{
+    
+    width: 280px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+}#cuadro-1{
+    height:  741px;
+    margin-bottom: 0px;
+    border-bottom-width: 0px;
+}
+.center-block{
+    display: block!important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 46.2rem!important;
+}
+.div-button{
+margin-top: 25px;
+margin-bottom: 25px;
+}
+#div-info{
+    padding: 60px 60px 60px 35px
+}
+#home{
+    width: 100%;
+    height: 100%;
+}
+#tamanio-home{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 50px;
+}
+#text-tu-casa{
+    font-weight: bold;
+    text-align: center;
+}
+#div-info-1{
+    background-color: white;
+}
+#button-enviar-informacion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border-color: blue;
+    width: 40%;
+    color: white;
+}
+.tarjeta-perfil{
+    margin-top: 15px;
+}
+#text-invita{
+    text-align: center;
+    color: black;
+}
+#menber1{
+    display: block;
+    line-height: 24px;
+    padding-left:  20px;
+}
+#icon{
+    margin-top: 6px;
+    margin-right: 12px;
+    padding-left: 0px;
+}
+#alineado{
+    width: 93%;
+    display: flex;
+    overflow: hidden;
+    height: 56px;
+    margin: 0 12px;
+}
+#name{
+    overflow: hidden;
+    color: #222326;
+    font-weight: 700;
+    max-width: 240px;
+}
+#estado{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #C1C3C6;
+    max-width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tamanio-foto-usuario{
+    height: 40px;
+    width: 100%
+}
+.foto-usuario{
+    width: 100%;
+    height: 100%;
+}
+#div-info-2{
+    margin-top: 10px;
+    background-color: white;
+}
+.ul-info{
+    
+    text-decoration: none;
+    list-style-type: none;
+}
+.usuario-div{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 56px;
+    margin: 0 12px;
+}
+.tabla-recibos{
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: grey;
+}
+.table-head-recibos{
+    border-top: 0;
+    border-bottom-width: 0;
+    padding: 0 16px 16px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #C1C3C6;
+    vertical-align: bottom;
+    border-bottom: 2px solid #EFEFEF;
+    line-height: 1.5;
+    text-align: left;
+}
+.tb-recibos{
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.td-tb-recibos{
+    padding: 16px;
+    border: none;
+    vertical-align: middle;
+    background-color: white;
+}
+.btn-link-ver-recibos{
+    border-radius: 0;
+    max-width: 290px;
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 32px;
+    color: #1DB954!important;
+    font-weight: 700;
+    min-width: 0;
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: none;
+}
+
